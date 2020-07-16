@@ -1,3 +1,4 @@
+/*
 var myImage = document.querySelector('img');
 
 myImage.onclick = function () {
@@ -7,7 +8,10 @@ myImage.onclick = function () {
     } else {
         myImage.setAttribute ('src', 'images/picture1.JPG');
     }
-}
+*/
+$(function(){
+    $("img").draggable();
+ });
 /*
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
