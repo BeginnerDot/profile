@@ -9,9 +9,30 @@ myImage.onclick = function () {
         myImage.setAttribute ('src', 'images/picture1.JPG');
     }
 */
-$(function(){
+
+$(document).ready(function() {
     $("img").draggable();
- });
+    $("button").click(function () {
+        $("h2").after("<b>挿入された要素です</b>");
+    });
+});
+
+/*
+$(function () {
+    $("img").draggable();
+    $("h4").droppable({
+        drop: function (event, ui) {
+            $(this)
+            .addClass("ui-state-highlight")
+            .find("img")
+            .html("Dropped!");
+        }
+    });
+});
+*/
+
+
+
 /*
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');

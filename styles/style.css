@@ -42,5 +42,12 @@ img {
 
 button {
 	display: block;
-	margin: auto;
+	margin: 10px auto;
+}
+
+.text_enter {
+	display: inline;
+	width: 300px;
+	height: 100px;
+	resize: none;
 }
